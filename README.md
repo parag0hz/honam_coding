@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+🏆 호남IS 코딩챌린지 - 3DGS 기반 침수취약 지역 솔루션
+📌 프로젝트 소개
+문제 정의
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+최근 국지성 집중호우로 인해 광주·전남 지역에서 반복적인 침수 피해 발생
 
-## Available Scripts
+피해 지역에 대한 데이터 기반의 예측 및 시각화 시스템 부족
 
-In the project directory, you can run:
+지역 특화 연결
 
-### `npm start`
+광주·전남: 저지대, 하천 인접 지역이 많아 침수 피해 빈번
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+지역 특성을 반영한 3D 공간 데이터 기반 침수 시뮬레이션 및 시각화 필요
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+프로젝트 목표
 
-### `npm test`
+3DGS(Gaussian Splatting) 기반 공간 시뮬레이션을 활용하여
+침수 취약 지역을 시각화 및 분석 → 재난 대응 및 예방 지원
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🤖 AI 활용 전략
 
-### `npm run build`
+GenSpark AI: 프로젝트 전체 PPT 제작 및 정리 자동화
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+데이터 시각화, 설명 자료, 발표용 흐름 자동 생성 지원
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Trae AI: 초기 UI/UX 설계 자동화
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+사용자 인터페이스 프로토타입 자동 제안
 
-### `npm run eject`
+직관적인 조작 흐름을 신속히 구현
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛠️ 활용 AI 도구
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3DGS (Gaussian Splatting): 대규모 3D 포인트 클라우드 데이터를 효율적으로 시각화
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Three.js: 웹 기반 3D 뷰어 구성 및 상호작용 처리
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚀 구현 과정
 
-## Learn More
+데이터 수집: 침수 취약 지역 관련 지형 및 환경 데이터 확보
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3DGS 변환: Gaussian Splatting으로 대규모 포인트 클라우드 처리
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+뷰어 제작: Three.js 기반 웹 뷰어 구성 (WASD 이동, 뷰 리셋 기능 추가)
 
-### Code Splitting
+AI 적용: GenSpark AI로 문서 자동화, Trae AI로 UI 시안 생성
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+시뮬레이션 시연: 침수 상황을 시각적으로 표현 → 직관적인 위험도 확인 가능
 
-### Analyzing the Bundle Size
+🎥 결과물
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+시연 영상: 침수 취약 지역 뷰어 및 AI 자동화 결과 데모
 
-### Making a Progressive Web App
+이미지 캡처: 단계별 화면 구성 및 위험도 오버레이 표시
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+부록: GitHub 전체 코드 링크
 
-### Advanced Configuration
+⚖️ 기대 효과
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+재난 상황 시 의사결정 지원 도구로 활용
 
-### Deployment
+광주·전남 특화 침수 대응 AI 기반 솔루션 제시
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+다양한 3D 데이터 확장 활용 가능성
